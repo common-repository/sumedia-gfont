@@ -1,0 +1,268 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sumedia-gfont\n"
+"POT-Creation-Date: 2019-12-18 06:45+0100\n"
+"PO-Revision-Date: 2019-12-18 06:47+0100\n"
+"Last-Translator: Sven Ullmann <kontakt@sumedia-webdesign.de>\n"
+"Language-Team: Sven Ullmann <kontakt@sumedia-webdesign.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sumedia-gfont.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: src/Sumedia/GFont/Admin/Controller/Delete.php:44
+msgid "The font has been successfully removed."
+msgstr "Der Font wurde erfolgreich entfernt."
+
+#: src/Sumedia/GFont/Admin/Controller/Fontlist.php:13
+#: src/Sumedia/GFont/Admin/Controller/NewFont.php:13
+#: src/Sumedia/GFont/Admin/View/Menu.php:38
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: src/Sumedia/GFont/Admin/Controller/Fontlist.php:14
+msgid "Fontlist"
+msgstr "Fontliste"
+
+#: src/Sumedia/GFont/Admin/Controller/NewFont.php:14
+#: templates/admin/fontlist.phtml:14 templates/admin/newfont.phtml:14
+msgid "Add new font"
+msgstr "Neue Schriftart hinzufügen"
+
+#: src/Sumedia/GFont/Admin/Controller/NewFont.php:18
+msgid "Google font list"
+msgstr "Google-Schriftartliste"
+
+#: src/Sumedia/GFont/Admin/Controller/NewFont.php:33
+msgid "The font has been fetched from google."
+msgstr "Der Font wurde von Google geholt."
+
+#: src/Sumedia/GFont/Admin/Form/NewFont.php:17
+msgid "The form could not be verified, please try again"
+msgstr ""
+"Das Formular konnte nicht verifiziert werden, bitte versuchen Sie es erneut"
+
+#: src/Sumedia/GFont/Admin/Form/NewFont.php:22
+#: src/Sumedia/GFont/Admin/Form/NewFont.php:32
+#, php-format
+msgid "Missing parameter: %s."
+msgstr "Fehler Parameter: %s."
+
+#: src/Sumedia/GFont/Admin/Form/NewFont.php:27
+msgid "The given Google URL seems not to be valid."
+msgstr "Die angegebene Google-URL scheint ungültig zu sein."
+
+#: src/Sumedia/GFont/Admin/Form/NewFont.php:37
+msgid "Invalid Font Name"
+msgstr "Ungültiger Schriftname"
+
+#: src/Sumedia/GFont/Admin/Table/Fontlist.php:13
+msgid "ID"
+msgstr "ID"
+
+#: src/Sumedia/GFont/Admin/Table/Fontlist.php:14
+msgid "Google URL"
+msgstr "Google URL"
+
+#: src/Sumedia/GFont/Admin/Table/Fontlist.php:15
+msgid "Font Name"
+msgstr "Schriftname"
+
+#: src/Sumedia/GFont/Admin/Table/Fontlist.php:51
+msgid "Delete"
+msgstr "Löschen"
+
+#: src/Sumedia/GFont/Admin/View/Heading.php:38
+msgid "Google Font"
+msgstr "Google Schriftart"
+
+#: src/Sumedia/GFont/Admin/View/Heading.php:39
+#: templates/admin/fontlist.phtml:13
+msgid "Font list"
+msgstr "Schriftartenliste"
+
+#: src/Sumedia/GFont/Admin/View/Menu.php:39
+msgid "GFont"
+msgstr "GFont"
+
+#: src/Sumedia/GFont/Admin/View/Menu.php:50
+msgid "Sumedia"
+msgstr "Sumedia"
+
+#: src/Sumedia/GFont/Base/Messenger.php:55
+msgid "The given message is not of type string"
+msgstr "Die übergebene Mitteilung ist kein String"
+
+#: src/Sumedia/GFont/Base/Repository.php:40
+msgid "\"row_count\" is not numeric"
+msgstr "\"row_count\" ist nicht numerisch"
+
+#: src/Sumedia/GFont/Base/Repository.php:44
+msgid "\"offset\" is not numeric"
+msgstr "\"offset\" is nicht numerisch"
+
+#: src/Sumedia/GFont/Base/Repository.php:141
+msgid "Given value is not a string"
+msgstr "Der übergebene Wert is kein String"
+
+#: src/Sumedia/GFont/Base/Repository.php:145
+msgid "Given field is not a string"
+msgstr "Das übergebene Feld is kein String"
+
+#: src/Sumedia/GFont/Base/Repository.php:181
+msgid "There is more than one result for findOne"
+msgstr "Es gibt mehr als ein Ergebniss für fineOne"
+
+#: src/Sumedia/GFont/Base/Repository.php:192
+#: src/Sumedia/GFont/Base/Repository.php:209
+msgid "Given id is not in correct type"
+msgstr "Die übergebene ID ist nicht vom korrekten Typ"
+
+#: src/Sumedia/GFont/Base/Repository.php:213
+#: src/Sumedia/GFont/Base/Repository.php:234
+msgid "Got invalid data"
+msgstr "Fehlerhafte Daten"
+
+#: src/Sumedia/GFont/Base/View.php:49
+#, php-format
+msgid "No property setted with name \"%s\""
+msgstr "Diese Variable existiert nicht \"%s\""
+
+#: templates/admin/fontlist.phtml:18
+msgid "Search"
+msgstr "Suche"
+
+#: templates/admin/fontlist.phtml:25
+msgid "Integrate in your theme"
+msgstr "Integration in Ihr Theme"
+
+#: templates/admin/fontlist.phtml:26
+msgid ""
+"If you want to use the new font have a look at the upper table where is "
+"defined HTML class: your-font-name."
+msgstr ""
+"Wenn Sie die neue Schriftart verwenden möchten, werfen Sie einen Blick auf "
+"die obere Tabelle, in der die HTML-Klasse definiert ist: your-font-name."
+
+#: templates/admin/fontlist.phtml:27
+msgid ""
+"You can add this class to your editor in order to display the text in this "
+"font."
+msgstr ""
+"Sie können diese Klasse ihrem Editor hinzufügen, um den Text in dieser "
+"Schriftart anzuzeigen."
+
+#: templates/admin/heading.phtml:14
+msgid "Version"
+msgstr "Version"
+
+#: templates/admin/newfont.phtml:17
+msgid "Google Font Url"
+msgstr "Google Font URL"
+
+#: templates/admin/newfont.phtml:25
+msgid "Font Name (CSS)"
+msgstr "Font Name (CSS)"
+
+#: templates/admin/newfont.phtml:33
+msgid "Create"
+msgstr "Erstellen"
+
+#: templates/admin/newfont.phtml:38
+msgid "Add a new Font from Google"
+msgstr "Einen neuen Font von Google hinzufügen"
+
+#: templates/admin/newfont.phtml:41
+#, php-format
+msgid ""
+"Navigate to Google fonts and select and modify the font you wish.<br />\n"
+"                Copy the <strong>URL from the Google Font embed code</"
+"strong> and paste it into \"Google Font URL\" in Wordpress.<br />\n"
+"                Give the font a name, it should be something like <strong>"
+"\"roboto-light\"</strong> eg.<br />\n"
+"                <strong>IMPORTANT</strong>: Please only one font per "
+"fontname, not a collection.<br />\n"
+"                <br />%s"
+msgstr ""
+"Navigieren Sie zu Google-Schriftarten, und wählen Sie die gewünschten "
+"Schriftarten aus und passen Sie sie ggfs. an.<br>Kopieren Sie die "
+"<strong>URL aus dem Google Font-Einbettungscode</strong> und fügen Sie sie "
+"in Wordpress in \"Google Font URL\" ein.<br>Geben Sie der Schrift einen "
+"Namen, es sollte so etwas wie <strong>\"roboto-light\"</strong> z.B. sein."
+"<br>\n"
+"                <strong>WICHTIG</strong>: Bitte nur eine Schriftart pro Font "
+"Name, keine Sammlung.<br>\n"
+"                <br>%s"
+
+#. Plugin Name of the plugin/theme
+msgid "Sumedia GFont"
+msgstr "Sumedia GFont"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/sumedia-wordpress/gfont"
+msgstr "https://github.com/sumedia-wordpress/gfont"
+
+#. Description of the plugin/theme
+msgid "Use Google Fonts with non-tracking data privacy"
+msgstr "Verwende Google Fonts ohne Tracking um den Datenschutz zu wahren"
+
+#. Author of the plugin/theme
+msgid "Sven Ullmann"
+msgstr "Sven Ullmann"
+
+#. Author URI of the plugin/theme
+msgid "https://www.sumedia-webdesign.de"
+msgstr "https://www.sumedia-webdesign.de"
+
+#~ msgid "Configuration"
+#~ msgstr "Konfiguration"
+
+#~ msgid "Back to the plugin overview"
+#~ msgstr "Zurück zur Plugin Übersicht"
+
+#~ msgid "Back to the google fontlist"
+#~ msgstr "Zurück zur Google Fontliste"
+
+#~ msgid "Create now"
+#~ msgstr "Jetzt anlegen"
+
+#~ msgid ""
+#~ "This plugin provide a selection of the Google Fonts Library with Open "
+#~ "Font licenced fonts."
+#~ msgstr ""
+#~ "Dieses Plugin stellt eine Kollektion aus der Google Fonts Bilbliothek "
+#~ "unter der Open Font Lizenz zur Verfügung."
+
+#~ msgid "Use this font"
+#~ msgstr "Font verwenden"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "No"
+#~ msgstr "Nein"
+
+#~ msgid "Initialize/Reload Font Database"
+#~ msgstr "Initialisiere Font Datenbank"
+
+#~ msgid ""
+#~ "In order to use Sumedia Plugins you need to install Sumedia Base Plugin "
+#~ "(sumedia-base)."
+#~ msgstr ""
+#~ "Um Sumedia Plugins zu verwenden benötigen Sie das Sumedia Base Plugin "
+#~ "(sumedia-base)"
+
+#~ msgid "Google Fonts Configuration"
+#~ msgstr "Google Fonts Konfiguration"
